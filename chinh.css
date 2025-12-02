@@ -1,0 +1,56 @@
+head title {display:none;}
+header nav {
+    position: sticky;
+    top:0;
+    background:#123524;
+    z-index: 1000;
+}
+header div {
+    background: #3E7B27 ;
+}
+header div img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header nav div a {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+header nav div {
+    background: #123524;
+    padding:10px;
+}
+header nav div .link {
+    position:relative;
+    text-decoration: none;
+    color:black;
+}
+header nav div .link::after {
+    content: "";
+    position:absolute;
+    left:0;
+    bottom:-2px;
+    width:0;
+    height:2px;
+    background: white;
+    transition: 0.5s;
+}
+header nav div .link:hover::after {
+    width:100%;
+}
+header nav div p {
+    position:absolute;
+    right:180px;
+    top:2px;
+    font-size: 25px;
+    color:white;
+    font-family: Open sans;
+}
+header nav div .box {
+    position:absolute;
+    right:20px;
+    bottom: -14px
+}
+main div .trove { 
+    margin-top: -100px;  
+}

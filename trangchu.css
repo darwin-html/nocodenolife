@@ -1,0 +1,63 @@
+hr {
+    margin: 5% auto;
+    background:black;   
+    height: 2px;
+    width: 35%;
+}
+main h1 {
+    font-size: 150;
+    text-align:center;
+    font-family:'Inter', sans-serif;
+    
+}
+main span p {
+    font-family:'Inter', sans-serif;
+    display: block;
+    width:60%;
+    word-wrap: break-word;
+    margin:0 auto;
+    text-align: center;
+    font-size: 110%;
+}
+main div {
+    display:block;
+    margin: 0 auto;
+    width:60%;
+    height:100%;
+    font-size: 100%;
+    font-family: Open Sans;
+    border:2px;
+}
+main div img {
+    width:800px;
+    height:500px;
+    border-radius: 15px;
+}   
+main div .link {
+    position:relative;
+    text-decoration: none;
+    color:black;
+}
+main div .link::after {
+    content: "";
+    position:absolute;
+    left:0;
+    bottom:-2px;
+    width:0;
+    height:2px;
+    background: black;
+    transition: 0.5s;
+}
+main div .link:hover::after {
+    width:100%;
+}
+main a {
+    font-size: 30px;
+    font-family: Open sans;
+    font-weight:700;
+    text-decoration: none;
+    color:black;
+}
+main p {
+    font-size: 120%;
+}

@@ -1,0 +1,62 @@
+.line {
+    position:relative;
+}
+.line::after{
+    position:absolute;
+    width: 2px;
+    height: 58vh;
+    background:black;
+    left:450px;
+    top:75px;
+    content: "";
+}
+main h1 {
+    font-size: 50px;
+    text-align:center;
+    font-family:'Inter', sans-serif;
+    
+}
+main span p {
+    font-family:'Inter', sans-serif;
+    display: block;
+    width:60%;
+    word-wrap: break-word;
+    margin:0 auto;
+    text-align: center;
+    font-size: 110%;
+}
+main hr {
+    margin: 5% auto;
+    background:black;   
+    height: 2px;
+    width: 35%;
+}
+main div {
+    margin: auto;
+    width:80%;
+    text-align: center;
+}
+main div img {
+    float:left;
+    margin-left: 50px;
+    margin-top:15px;
+    width:30%;
+    height:30%;
+    border-radius:15px;
+    
+}
+main div p {
+    font-size: 25px;
+    text-align: left;
+    margin-left:45%;
+    margin-top:-13px;
+}
+main div hr {
+    margin-left: 60%;
+    margin-top: -20px;
+    width:200px;
+}
+main .box {
+    border: 3px solid black;
+    padding:20px;
+}
